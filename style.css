@@ -1,0 +1,142 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+.container{
+    max-width:1380px;
+    margin:0 auto;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    padding:60px 80px;
+    
+
+}
+
+nav .container>  div:nth-child(2){
+    display: flex;
+    flex-basis: 36%;
+}
+
+.container-fluid ul{
+   display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style-type:none ;
+    
+}
+
+
+.left-profile {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+
+}
+
+.left-profile > div:nth-child(3) {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.right-profile {
+    display: flex;
+    max-width:780px;
+    flex-basis: 40%;
+
+}
+
+.right-profile img {
+    width:100%;
+}
+
+.right-short-bio {
+    max-width: 389px;
+}
+
+.right-short-bio img{
+    width:100%;
+}
+
+.h3{
+    margin: 0 auto;
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* #about-me .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: center;
+} */
+
+#about-me .container > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+
+}
+
+#about-me .container > div:nth-child(2) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.items {
+    max-width: 431px;
+    margin: 0 auto;
+
+}
+
+#about-me .container > div:nth-child(2) div:nth-child(3) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin-top: 30px;
+}
+.seperator{
+    margin-top: 85px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.skills {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+}
+
+.skills-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1004px;
+        margin: 0 auto;
+        place-items: center;
+        gap:30px;
+}
+
+.skill-wrap {
+    max-width:66px;
+
+}
+.skill-wrap img{
+    width:100%;
+}
+
+.skill-title{
+    max-width:1004px;
+    margin:0 auto;
+    margin-top: 92px;
+    margin-bottom: 42px;
+}
