@@ -61,10 +61,10 @@
 
         <section id="short-bio">
             <div class="container container-fluid">
-                <div>
+                <div class="bio-box">
                     <h3>IT BERRIES</h3>
-                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quibusdam. In dolore, aliquam eum vel, aut atque soluta nulla praesentium ipsa cum delectus consectetur, reprehenderit assumenda neque cumque accusamus iste maiores magni! Culpa blanditiis sint unde nulla. Laudantium rerum facere eius. Doloremque laborum commodi nesciunt, quod vitae sequi corrupti perferendis.
-                    </P>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem est illum consequuntur, repellat autem voluptate ipsa ea officia labore voluptates suscipit ipsum exercitationem non culpa sapiente in ullam odit necessitatibus tempore accusamus nulla.<span id="dots">. . .</span> <span id="more">Repellat, nemo ipsam. Totam voluptatibus ut soluta quaerat. Mollitia fugit aspernatur pariatur, obcaecati quia blanditiis voluptatem accusantium.</span></p>
+                    <button onclick="readMore()"  id="read-more" class="button">Read More</button>
                 </div>
                 <div class="right-short-bio">
                     <img src="./assests/short-bio-logo.png" alt="short-bio-img">
@@ -77,35 +77,41 @@
         <section id="about-me">
          <div class="container ">
 
-           <div>
+           <div class="skills">
             <div class="h3">
                 <h3>ABOUT ME</h3>
             </div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, quibusdam sit blanditiis quaerat eaque doloribus minus a sapiente quos odio ex autem beatae praesentium deserunt inventore et tempore modi velit.</p>
+            <p class="p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, quibusdam sit blanditiis quaerat eaque doloribus minus a sapiente quos odio ex autem beatae praesentium deserunt inventore et tempore modi velit.</p>
             <div class="seperator">
                 <img src="./assests/seperator.png" alt="seperator">
             </div>
 
            </div>
 
-            <div>
+            <div class="container-fluid">
                 <div class="items">
-                    <img src="./assests/design-logo.png" alt="design logo">
-                    <h4>DESIGN</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus soluta quisquam culpa odit id officia qui dolore iure distinctio?
-                    </p>
+                    <div class="items-position">
+                        <img src="./assests/design-logo.png" alt="design logo">
+                        <h4 class="h4">DESIGN</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus soluta quisquam culpa odit id officia qui dolore iure distinctio?
+                        </p>
+                    </div>
                 </div>
                 <div class="items">
-                    <img src="./assests/development-logo.png" alt="development logo">
-                    <h4>DEVELOPMENT</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus soluta quisquam culpa odit id officia qui dolore iure distinctio?
-                    </p>
+                    <div class="items-position">
+                        <img src="./assests/development-logo.png" alt="development logo">
+                        <h4 class="h4">DEVELOPMENT</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus soluta quisquam culpa odit id officia qui dolore iure distinctio?
+                        </p>
+                    </div>
                 </div>
                 <div class="items">
-                    <img src="./assests/maintenance-logo.png" alt="maintenance logo">
-                    <h4>MIANTENANCE</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus soluta quisquam culpa odit id officia qui dolore iure distinctio?
-                    </p>
+                    <div class="items-position">
+                        <img src="./assests/maintenance-logo.png" alt="maintenance logo">
+                        <h4 class="h4">MIANTENANCE</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus soluta quisquam culpa odit id officia qui dolore iure distinctio?
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -117,7 +123,7 @@
         </section>
 
         <section id="skills">
-            <div class="container">
+            <div class="container ">
 
                 <div class="skills">
                     <div class="h3">
@@ -125,64 +131,151 @@
                     </div>
                 </div>
 
-                <div class="skill-title">
-                    <h4>MASTERED</h4>
-                </div>
-
-                <div class="skills-list">
-                    <div class="skill-wrap">
-                        <img src="./assests/html.png" alt="html">
-                        <p>HTML 5</p>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <h4>MASTERED</h4>
                     </div>
-                    <div class="skill-wrap">
-                        <img src="./assests/css3.png" alt="css">
-                        <p>CSS 3</p>
-                    </div>
-                    <div class="skill-wrap">
-                        <img src="./assests/bootstrap.png" alt="bootstrap">
-                        <p>BOOTSTRAP</p>
-                    </div>
-                    <div class="skill-wrap">
-                        <img src="./assests/git.png" alt="git">
-                        <p>GIT</p>
-                    </div>
-                    <div class="skill-wrap">
-                        <img src="./assests/figma.png" alt="figma">
-                        <p>FIGMA</p>
-                    </div>
-
-                </div>
-                
-             
-
-                <div class="skill-title">
-                    <h4>LEARNING</h4>
-                </div>
-
-                <div class="skills-list">
-                    <div class="skill-wrap">
-                        <img src="./assests/js.png" alt="JAVASCRIPT">
-                        <p>JAVASCRIPT</p>
-                    </div>
-                    <div class="skill-wrap">
-                        <img src="./assests/typescript.png" alt="TYPESCRIPT">
-                        <p>TYPESCRIPT</p>
-                    </div>
-                    <div class="skill-wrap">
-                        <img src="./assests/nodejs.png" alt="nodejs">
-                        <p>NODE JS</p>
-                    </div>
-                    <div class="skill-wrap">
-                        <img src="./assests/mysql.png" alt="mYSQL">
-                        <p>MY SQL</p>
+    
+                    <div class="skills-list">
+                        <div class="skill-wrap">
+                            <img src="./assests/html.png" alt="html">
+                            <p>HTML 5</p>
+                        </div>
+                        <div class="skill-wrap">
+                            <img src="./assests/css3.png" alt="css">
+                            <p>CSS 3</p>
+                        </div>
+                        <div class="skill-wrap">
+                            <img src="./assests/bootstrap.png" alt="bootstrap">
+                            <p>BOOTSTRAP</p>
+                        </div>
+                        <div class="skill-wrap">
+                            <img src="./assests/git.png" alt="git">
+                            <p>GIT</p>
+                        </div>
+                        <div class="skill-wrap">
+                            <img src="./assests/figma.png" alt="figma">
+                            <p>FIGMA</p>
+                        </div>
+    
                     </div>
                     
-
+                 
+    
+                    <div class="skill-title">
+                        <h4>LEARNING</h4>
+                    </div>
+    
+                    <div class="skills-list">
+                        <div class="skill-wrap">
+                            <img src="./assests/js.png" alt="JAVASCRIPT">
+                            <p>JAVASCRIPT</p>
+                        </div>
+                        <div class="skill-wrap">
+                            <img src="./assests/typescript.png" alt="TYPESCRIPT">
+                            <p>TYPESCRIPT</p>
+                        </div>
+                        <div class="skill-wrap">
+                            <img src="./assests/nodejs.png" alt="nodejs">
+                            <p>NODE JS</p>
+                        </div>
+                        <div class="skill-wrap">
+                            <img src="./assests/mysql.png" alt="mYSQL">
+                            <p>MY SQL</p>
+                        </div>
+                        
+    
+                    </div>
                 </div>
 
             </div>
         </section>
+
+        <section id="contact">
+
+            <div class="skills">
+                <div class="h3">
+                    <h3>CONTACT</h3>
+                </div>
+                <p class="p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, quibusdam sit blanditiis quaerat eaque doloribus minus a sapiente quos odio ex autem beatae praesentium deserunt inventore et tempore modi velit.</p>
+                <div class="seperator">
+                    <img src="./assests/seperator.png" alt="seperator">
+                </div>
+            </div>
+            
+            <form>
+                <div id="form-box">
+                    <input id="name" class="input" type="text" placeholder="ENTER YOUR NAME">
+                    <input id="email" class="input" type="email" placeholder="ENTER YOUR EMAIL">
+                    <input id="phone" class="input" type="number" placeholder="CONTACT NUMBER">
+                    <textarea rows="5" cols="50" class="textarea" placeholder="YOUR MESSAGE"></textarea>
+                    <div>
+                        <button type="submit" class="button">SUBMIT</button>
+                    </div>
+                </div>
+            </form>
+
+        </section>
     </main>
+
+    <footer>
+        <section id="footer-section">
+        <div class="container">
+            <div>
+                <p>Back To Top</p>
+            </div>
+
+            <div>
+                <div class="footer-logo-wrap">
+                    <img src="./assests/linkedin-footer.png" alt="linkedin footer">
+                </div>
+                <div class="footer-logo-wrap">
+                    <img src="./assests/insta-footer.png" alt="insta footer">
+                </div>
+                <div class="footer-logo-wrap">
+                    <img src="./assests/mail-footer.png" alt="mail footer">
+                </div>
+            </div>
+
+            <div>
+                <p>@2025 Muhammed Naji All Rights Reserved.</p>
+            </div>
+        </div>
+        </section>
+    </footer>
+       
+
+
+
+    <!-- ...JavaSript..... -->
+
+
+
+<script>
+    let button = document.getElementById("read-more")
+    let more = document.getElementById("more")
+    let dots = document.getElementById("dots")
     
+
+    
+    function readMore(){
+        if(dots.style.display === "none") {
+            dots.style.display = "inline";
+            button.innerHTML = "Read More";
+            more.style.display = "none";
+
+        }
+        else {
+            dots.style.display = "none";
+            button.innerHTML = "Read Less";
+            more.style.display = "inline";
+
+        }
+
+    }
+</script>
+
+
+
 </body>
 </html>

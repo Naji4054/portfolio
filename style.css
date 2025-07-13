@@ -4,6 +4,10 @@ padding:0;
 box-sizing: border-box;
 }
 
+body {
+    background:url(./assests/bg.jpg)
+}
+
 .container{
     max-width:1380px;
     margin:0 auto;
@@ -13,8 +17,12 @@ box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     padding:60px 80px;
+    margin-bottom:40px
     
 
+}
+nav {
+   
 }
 
 nav .container>  div:nth-child(2){
@@ -35,7 +43,15 @@ nav .container>  div:nth-child(2){
     display: flex;
     flex-direction: column;
     flex-basis: 40%;
+    justify-content: center;
 
+}
+.name > p:nth-child(1) {
+    margin-bottom: 50px;
+}
+
+.des {
+    margin-bottom: 90px;
 }
 
 .left-profile > div:nth-child(3) {
@@ -72,32 +88,56 @@ nav .container>  div:nth-child(2){
     padding-right: 50px;
 }
 
-/* #about-me .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 30px;
-    text-align: center;
-} */
-
-#about-me .container > div:nth-child(1){
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 30px;
-
+.h4 {
+    margin-bottom: 20px;
 }
+
+.p{
+    max-width: 763px;
+    margin: 0 auto;
+}
+
+
+/* #about-me .container > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+
+} */
 
 #about-me .container > div:nth-child(2) {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+}
+
+.hidden{
+    display: none;
 }
 
 .items {
     max-width: 431px;
     margin: 0 auto;
+    padding-bottom: 65px;
 
 }
+
+.items-position {
+    position: relative;
+}
+.items-position img{
+    position:absolute;
+    top: -38%;
+    left: -9%;
+}
+
+.bio-box {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
 
 #about-me .container > div:nth-child(2) div:nth-child(3) {
     grid-column: 1 / -1;
@@ -105,7 +145,7 @@ nav .container>  div:nth-child(2){
     margin-top: 30px;
 }
 .seperator{
-    margin-top: 85px;
+    margin-top: 55px;
     margin-bottom: 120px;
     text-align: center;
 }
@@ -114,20 +154,18 @@ nav .container>  div:nth-child(2){
         display: flex;
         flex-direction: column;
         text-align: center;
-        gap: 30px;
+        gap: 40px;
 }
 
 .skills-list {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        max-width: 1004px;
+        grid-template-columns: 100px 100px 100px 100px;
         margin: 0 auto;
-        place-items: center;
-        gap:30px;
+        gap:50px;
 }
 
 .skill-wrap {
-    max-width:66px;
+    max-width:55px;
 
 }
 .skill-wrap img{
@@ -135,8 +173,80 @@ nav .container>  div:nth-child(2){
 }
 
 .skill-title{
-    max-width:1004px;
     margin:0 auto;
     margin-top: 92px;
     margin-bottom: 42px;
+}
+
+.skill-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 160px;
+
+}
+
+
+#form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0 auto;
+    max-width:600px;
+    margin-bottom: 50px;
+}
+
+.input {
+    min-height: 40px;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-right: none;
+}
+
+.textarea{
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-right: none;
+}
+
+.button {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: none;
+    border-bottom: none;
+    padding: 10px 20px;
+    background-color: transparent;
+    max-width:110px;
+}
+
+footer{
+    color: white
+}
+
+#footer-section .container > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+#footer-section .container > div:nth-child(1) {
+    text-align: center;
+    margin-bottom: 25px;
+}
+#footer-section .container > div:nth-child(3) {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.footer-logo-wrap {
+margin:20px
+}
+
+#more{
+    display: none;
 }
